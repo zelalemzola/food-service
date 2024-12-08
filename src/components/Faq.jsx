@@ -16,7 +16,7 @@ const Faq = () => {
       <h1 className='text-3xl md:text-4xl font-bold'>Any Questions?</h1>
       </BlurFade>
           <BlurFade  delay={0.55} inView>
-      <p className='text-md md:text-lg text-gray-400 dark:text-gray-300 w-full md:w-[46%]'>If you have any questions, you may find your answer on this FAQ. Not answered yet? Email us on <span className='text-secondary'>tenahealth@gmail.com</span></p>
+      <p className='text-md md:text-lg text-gray-400 dark:text-gray-300 w-full md:w-[46%]'>If you have any questions, you may find your answer on this FAQ. Not answered yet? Email us on <span className='text-secondary'>tenameaza@gmail.com</span></p>
       </BlurFade>
       </div>
       <div className='flex flex-col items-center md:flex-row gap-10 w-full'>

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 items-start">
             <div className='flex items-end gap-3 flex-wrap'>
                
-                <p className='text-2xl font-bold text-primary flex items-center gap-1'>Tenaye <span className='text-secondary'>Meaza</span><Leaf fill='green' color='white'/></p>
+                <p className='text-2xl font-bold text-primary flex items-center gap-1'>Tena <span className='text-secondary'>Meaza</span><Leaf fill='green' color='white'/></p>
             </div>
             <div className="flex flex-col items-start gap-3">
               <div className="flex items-center gap-4 flex-wrap">
