@@ -125,7 +125,7 @@ const Workers = () => {
     <div className="w-full mx-auto mt-[20px] flex flex-col ">
       <div className="w-full flex flex-wrap items-center justify-between fixed top-10  z-30 bg-background border-b rounded-b-2xl px-[4%] md:px-[10%] py-3 shadow-md dark:shadow-gray-400">
       <Link href='/'><ArrowLeft fontWeight='bold' size={33} className="text-white bg-primary font-bold p-1 rounded-full md:scale-200 cursor-pointer" /></Link>
-        <p className="text-primary text-lg md:text-2xl font-bold  items-center gap-3 flex flex-col md:flex-row">Available Lawyers: <span className="text-secondary">({maidsCount})</span></p>
+        <p className="text-primary text-lg md:text-2xl font-bold  items-center gap-3 flex flex-col md:flex-row">Available Professionals: <span className="text-secondary">({maidsCount})</span></p>
         <Dialog className="flex-end">
           <DialogTrigger>
             <Button className="flex items-center gap-3 bg-primary hover:bg-primary">Filter <FilterIcon className='hidden md:block'/></Button>
@@ -197,7 +197,7 @@ const Workers = () => {
         </Dialog>
       </div>
   
-      {(!maidsData || !categoriesData)?<div className='pt-[40%] text-xl text-primary font-bold mx-auto'>Loading Lawyer...</div>
+      {(!maidsData || !categoriesData)?<div className='pt-[40%] text-xl text-primary font-bold mx-auto'>Loading Professionals...</div>
       :
             <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-8 gap-y-20 pt-[20%] md:pt-[15%] z-0 py-20 ">
         {filteredMaids.map((maid) => (
